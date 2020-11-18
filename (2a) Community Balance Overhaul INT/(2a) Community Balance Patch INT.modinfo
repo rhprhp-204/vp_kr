@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="12">
+  <Properties>
+    <Name>(2a) Community Balance Overhaul Localized</Name>
+    <Stability>Beta</Stability>
+    <Teaser>(12-18) [COLOR_GREEN]Translation of the Community Balance Overhaul[ENDCOLOR]</Teaser>
+    <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to German only.</Description>
+    <Authors>The Community</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <MinCompatibleSaveVersion>9</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="88" maxversion="999" title="Community Patch" />
+	<Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="13" maxversion="999" title="Community Balance Patch" />
+	<Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" minversion="12" maxversion="999" title="(1a) Community Patch Localized" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="F85894B39CB48579C822DD17C5266F6C" import="0">Balance Changes/Text/ko_KR/BuildingText.sql</File>
+    <File md5="1FA1A881728A39250063E9E7FC1CCF52" import="0">Balance Changes/Text/ko_KR/CivText.sql</File>
+    <File md5="A1A3C2E91FC5C48DAF7487425AA43DDC" import="0">Balance Changes/Text/ko_KR/BuildingText.xml</File>
+	<File md5="1BE4506DEA79F7CC4ECF766D51B37256" import="0">Balance Changes/Text/ko_KR/UnitText.xml</File>
+	<File md5="63B5415F1EA1B16BE69D63C3665CCF70" import="0">Balance Changes/Text/ko_KR/UIText.xml</File>
+	<File md5="CCA79EE7E4AB27AD1118B57D54035781" import="0">Balance Changes/Text/ko_KR/TerrainText.xml</File>
+	<File md5="C3161A6F77F05403EB6DC09F7F1CEF4E" import="0">Balance Changes/Text/ko_KR/PromotionText.sql</File>
+	<File md5="FA03CD2B4033195C46407235AA4CEE56" import="0">Balance Changes/Text/ko_KR/PolicyText.sql</File>
+	<File md5="E380513D837B582653D26209CFA39479" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
+	<File md5="0C04CD1A8663ABD043B3F98CF0DC62EA" import="0">Balance Changes/Text/ko_KR/OtherText.sql</File>
+	<File md5="587DF2E9CDA2B2D6498168339D829EA1" import="0">Balance Changes/Text/ko_KR/UnitText.sql</File>
+	<File md5="792F242EA724E555DD9BBFD578ECBCD0" import="0">Balance Changes/Text/ko_KR/ReligionText.sql</File>
+	<File md5="A4DB766D4512FA65F276276BCC401D80" import="0">Balance Changes/Text/ko_KR/NewText.xml</File>
+	<File md5="E9BC92234752920390343208122C258F" import="0">Balance Changes/Text/ko_KR/TextChanges.sql</File>
+    <File md5="7689EE60AE40E0417FC112FE31FDCF2E" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/MiniMapPanelText.xml</File>
+	<File md5="32480D7C96088C1871CABA23ABD14863" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/UIAntiquities.xml</File>
+	<File md5="DB6AC62D503AD3A29806A65BD9FAB73C" import="0">Modular Elements/Corporations/Text/ko_KR/CorporationOverviewText.xml</File>
+	<File md5="598983BC8D36D43945B67620D913DB06" import="0">Modular Elements/Corporations/Text/ko_KR/CorpText.xml</File>
+    <File md5="B33E863BD8B6C5147637BE92A58C44BD" import="0">Modular Elements/Events/Text/EventText_ko_KR.xml</File>
+	<File md5="E9CBB2FB049850A96FC27C67CF340998" import="0">Modular Elements/TradeUIMod/ko_KR/GlobalCityStatesGifts.xml</File>
+    <File md5="45155F5D0C15A8689BD6C2D49040BA7D" import="0">Modular Elements/TradeUIMod/ko_KR/UITradeRoutesEnhancements.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Modular Elements/TradeUIMod/ko_KR/UITradeRoutesEnhancements.xml</UpdateDatabase>
+      <UpdateDatabase>Modular Elements/ArchaeologistUIMods/Text/ko_KR/MiniMapPanelText.xml</UpdateDatabase>
+	  <UpdateDatabase>Modular Elements/ArchaeologistUIMods/Text/ko_KR/UIAntiquities.xml</UpdateDatabase>
+	  <UpdateDatabase>Modular Elements/TradeUIMod/ko_KR/GlobalCityStatesGifts.xml</UpdateDatabase>
+	  <UpdateDatabase>Modular Elements/Corporations/Text/ko_KR/CorpText.xml</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ko_KR/NewText.xml</UpdateDatabase>
+	  <UpdateDatabase>Balance Changes/Text/ko_KR/TextChanges.sql</UpdateDatabase>
+	  <UpdateDatabase>Balance Changes/Text/ko_KR/BuildingText.sql</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ko_KR/BuildingText.xml</UpdateDatabase>
+	  <UpdateDatabase>Balance Changes/Text/ko_KR/CivText.sql</UpdateDatabase>
+	  <UpdateDatabase>Balance Changes/Text/ko_KR/OtherText.sql</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ko_KR/PolicyText.sql</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ko_KR/PromotionText.sql</UpdateDatabase>
+	  <UpdateDatabase>Balance Changes/Text/ko_KR/UIText.sql</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ko_KR/UIText.xml</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ko_KR/UnitText.sql</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ko_KR/UnitText.xml</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ko_KR/ReligionText.sql</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ko_KR/TerrainText.xml</UpdateDatabase>
+      <UpdateDatabase>Modular Elements/Corporations/Text/ko_KR/CorporationOverviewText.xml</UpdateDatabase>
+      <UpdateDatabase>Modular Elements/Events/Text/EventText_ko_KR.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
