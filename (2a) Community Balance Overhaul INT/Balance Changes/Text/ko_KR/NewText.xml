@@ -36,7 +36,7 @@
 			<Text>누아다, 은색 팔의 신</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS">
-			<Text>야영지 및 재배지의 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 연회장의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+			<Text>숲 타일의 [ICON_GOLD]골드 및 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 정글 타일의 [ICON_PRODUCTION]생산 및 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 야영지 및 재배지의 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 연회장의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS_SHORT">
 			<Text>케르눈노스, 뿔난 사슴의 신</Text>
