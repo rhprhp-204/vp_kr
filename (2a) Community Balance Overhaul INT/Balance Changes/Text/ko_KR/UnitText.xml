@@ -570,7 +570,7 @@
 			<Text>손상 타격</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SLINGER_HELP">
-			<Text>원거리 공격 시 다른 유닛에 5턴 동안 [COLOR_PLAYER_PURPLE]멍함[ENDCOLOR] 효과 부여[NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시</Text>
+			<Text>원거리 공격 시 다른 지상 유닛에 5턴 동안 [COLOR_PLAYER_PURPLE]멍함[ENDCOLOR] 효과 부여[NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DAZED">
 			<Text>멍함</Text>
